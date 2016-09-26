@@ -15,6 +15,7 @@ class ViewController: UIViewController {
         print("viewDidLoad() called")
         view.backgroundColor = UIColor.randomColor()
     }
+    // The console shows printout when built. Heh. Keep thinking that it runs like a REPL, but it's a compiler.
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
